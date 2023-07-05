@@ -36,7 +36,7 @@ const Navbar = () => {
             : (<FiMenu size={30} onClick={() => { setToggle(true) }} />)
         }
         {
-          toggle && <div className='menu'>
+          toggle && <div className='menu slide-in-right'>
             <Menu />
           </div>
         }
